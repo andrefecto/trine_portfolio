@@ -7,7 +7,7 @@ steps:
 - name: Copying Files
   commands:
   - echo $DRONE_WORKSPACE
-  - cp -r $DRONE_WORKSPACE/* /opt/docker_home/trine_portfolio/html
+  - cp -r $DRONE_WORKSPACE/* /opt/docker_home/trine/html
 
 trigger:
   branch:
